@@ -1,0 +1,168 @@
+body{
+    background: #f4f7fb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.pagination{
+    justify-content: center;
+}
+
+.page-link{
+    border-radius: 8px;
+    margin: 2px;
+}
+
+canvas{
+    max-height: 400px;
+}
+/* NAVBAR */
+
+.navbar{
+    background: linear-gradient(to right, #0d6efd, #0b5ed7);
+    padding: 14px;
+}
+
+.navbar-brand{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .btn{
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+/* CARDS */
+
+.card{
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-3px);
+}
+
+/* DASHBOARD CARDS */
+
+.dashboard-card{
+    color: white;
+    padding: 30px;
+    border-radius: 18px;
+}
+
+.bg-blue{
+    background: linear-gradient(135deg,#0d6efd,#3d8bfd);
+}
+
+.bg-green{
+    background: linear-gradient(135deg,#198754,#20c997);
+}
+
+.bg-orange{
+    background: linear-gradient(135deg,#fd7e14,#ffb703);
+}
+
+.bg-red{
+    background: linear-gradient(135deg,#dc3545,#ff4d6d);
+}
+
+/* TABLE */
+
+.table{
+    border-radius: 15px;
+    overflow: hidden;
+    background: white;
+}
+
+.table thead{
+    background: #0d6efd;
+    color: white;
+}
+
+.table-hover tbody tr:hover{
+    background: #f2f7ff;
+}
+
+/* FORM */
+
+.form-control,
+.form-select{
+    border-radius: 12px;
+    padding: 12px;
+}
+
+textarea{
+    resize: none;
+}
+
+/* BUTTONS */
+
+.btn{
+    border-radius: 10px;
+    padding: 10px 18px;
+    font-weight: 600;
+}
+
+.btn-primary{
+    background: #0d6efd;
+}
+
+.btn-success{
+    background: #198754;
+}
+
+.btn-danger{
+    background: #dc3545;
+}
+
+/* PAGE TITLE */
+
+.page-title{
+    font-size: 28px;
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+/* BADGES */
+
+.badge{
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+/* SEARCH BOX */
+
+.search-box{
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* NAVBAR BUTTON ALIGNMENT */
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .container div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.navbar .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    min-width: 110px;
+}
